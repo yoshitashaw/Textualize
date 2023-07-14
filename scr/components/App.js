@@ -27,7 +27,7 @@ function App() {
         <Navbar title="TEXTUALIZE" mode={mode} toggleMode={toggleMode} /> 
           <div className="container my-3" >
             <Routes>
-                <Route exact path="/about" element={<About />} />                       
+                <Route exact path="/about" element={<About mode={mode} />} />                       
                 <Route exact path="/" element={<TextForm heading="Enter content here..." mode={mode} />} />
             </Routes>         
             {/* <About /> */}
