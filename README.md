@@ -1,4 +1,4 @@
-TEXTUALIZE
+**TEXTUALIZE**
 
 This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This basic page is built using React.js that performs certain tasks on the texts the user enters, like- changing to uppercase, lowercase, and reversing the string.
